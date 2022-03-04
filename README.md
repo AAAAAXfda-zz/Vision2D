@@ -25,12 +25,12 @@ https://www.roblox.com/library/7625799164/Vision2D
 
 **Using .rbxm File** - Head over to the [Releases](https://github.com/AAAAAXfda/Vision2D/releases) page on github, choose a version and download the `Vision2D@x.y.z.rbxm` file from its assets. Now right click in Roblox Studio's explorer, click Insert From File and select the file.
 
-**Using wally** - Use [wally](https://github.com/UpliftGames/wally), a package manager for roblox to install Vision2D in your external code editor. This requires wally to be installed on your device. Then, add Vision2D to the dependencies listed in your `wally.toml` file.<br/>
+**Using Octo** - Use [octo](https://github.com/AAAAAXfda/octo-pkg-manager), a package manager for roblox to install Vision2D in your external code editor. This requires octo to be installed on your device. Then, add Vision2D to the dependencies listed in your `octo.toml` file.<br/>
 ```toml
 [dependencies]
 Vision2D = "AAAAAXfda/Vision2D@0.6.5"
 ```
-After that, Run `wally install` in the cli. Vision2D should be installed in your root directory. If you encounter any errors or problems installing Vision2D using wally, [open an issue!](https://github.com/AAAAAXfda/Vision2D/issues)
+After that, Run `octo install` in the cli. Vision2D should be installed in your root directory. If you encounter any errors or problems installing Vision2D using octo, [open an issue!](https://github.com/AAAAAXfda/Vision2D/issues)
 
 Require the library and start coding.
 
